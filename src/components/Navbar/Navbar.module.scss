@@ -1,0 +1,28 @@
+.nav {
+  grid-area: n;
+  background-color: hotpink;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.item {
+
+  a {
+    color: white;
+    text-decoration: none;
+    transition: .3s;
+
+    &:hover {
+      color: rgba(0, 0, 0, 0.8);
+    }
+
+    &.activeLink {
+      color: black;
+    }
+
+    &.pen {
+      color: firebrick;
+    }
+  }
+}

@@ -1,0 +1,17 @@
+.content {
+  grid-area: c;
+  background-color: deeppink;
+}
+
+.posts {
+  margin-top: 10px;
+}
+.postsBlock {
+  padding: 10px;
+}
+
+h3 {
+  margin-bottom: 10px;
+}
+
+/*# sourceMappingURL=MyPosts.module.css.map */

@@ -1,0 +1,24 @@
+.nav {
+  grid-area: n;
+  background-color: hotpink;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.item a {
+  color: white;
+  text-decoration: none;
+  transition: 0.3s;
+}
+.item a:hover {
+  color: rgba(0, 0, 0, 0.8);
+}
+.item a.activeLink {
+  color: black;
+}
+.item a.pen {
+  color: firebrick;
+}
+
+/*# sourceMappingURL=Navbar.module.css.map */

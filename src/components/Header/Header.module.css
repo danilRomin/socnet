@@ -1,0 +1,10 @@
+.header {
+  grid-area: h;
+  background-color: #03b903;
+}
+
+.header img {
+  width: 20px;
+}
+
+/*# sourceMappingURL=Music.module.css.map */
